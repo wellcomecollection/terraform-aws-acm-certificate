@@ -4,6 +4,8 @@ This module creates a certificate in AWS Certificate Manager (ACM).
 
 It also creates the [DNS validation] records in Route 53, which proves that we own the domain for which we're creating the certificate.
 
+The certificate should be available for use as soon as this module has been created/applied using Terraform.
+
 [DNS validation]: https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html
 
 
